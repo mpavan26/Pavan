@@ -28,6 +28,7 @@ public class TC_1 {
 	  lp=new Login(driver);
 	  lp.openUrl();
 	  lp.doLoginAs("your username", "your password");
+	  lp.skiplogin();
 	  mp=new Mail(driver);
   }
 }
